@@ -11,12 +11,11 @@ while True:
     choice = input(">> ")
 
     if choice == "1":
-        print("Start Game!")
         battle.start()
     elif choice == "2":
         print("Load Game!")
         break
     elif choice == "3":
-        print("How dare you!")
+        print("Are you going to run away?")
         exit()
     system("cls")
